@@ -5,9 +5,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SurveyView from "./views/SurveyView"
+import ResponsesView from "./views/ResponsesView"
 import { Container, Button } from "react-bootstrap";
 
 function App() {
@@ -19,9 +20,18 @@ function App() {
               Take a Survey
           </Button>
         </Link>
+        <br/>
+        <Link to="/responses">
+          <Button className="text-uppercase" variant="secondary" block={true}>
+              Show All Responses
+          </Button>
+        </Link>
         <Switch>
           <Route path="/survey">
             <SurveyView surveyId={1}/>
+          </Route>
+          <Route path="/responses">
+            <ResponsesView />
           </Route>
         </Switch>
       </Container>

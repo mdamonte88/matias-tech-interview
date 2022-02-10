@@ -1,0 +1,25 @@
+.questionRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.answerBox {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    min-width: 60px;
+    border: solid 1px black;
+}
+
+.box__top {
+    background: red; 
+    text-align: center; 
+    font-size: 36px;
+}
+
+.box__bottom {
+    background: blue; 
+    text-align: center;
+    color: #FFFFFF;
+}
