@@ -1,95 +1,37 @@
 {
-  "surveys": [
-    {
-      "id": 1,
-      "name": "NPS",
-      "content": {
-        "questions": [
-          {
-            "question": "How likely are you to recommend our product?",
-            "answers": [
-              "1 Not at all likely",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6",
-              "7",
-              "8",
-              "9",
-              "10 Highly likley"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": 2,
-      "name": "Employee Satisfaction",
-      "content": {
-        "questions": [
-          {
-            "question": "How satisfied are you at this company?",
-            "answers": [
-              "Very unsatisfied",
-              "Unsatisied",
-              "Neutral",
-              "Satisfied",
-              "Very satisfied"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": 3,
-      "name": "Lunch Order",
-      "content": {
-        "questions": [
-          {
-            "question": "What would you like for lunch today?",
-            "answers": ["Pizza", "Sandwiches", "Sushi", "Tacos"]
-          }
-        ]
-      }
-    }
-  ],
-  "responses": [
-    {
-      "id": 77747295293,
-      "content": {
-        "questions": [
-          {
-            "question": "How likely are you to recommend our product?",
-            "answer": "6"
-          }
-        ]
+  "surveys":[
+      {"id":1,"name":"NPS","content":{"questions":[{"question":"How likely are you to recommend our product?","answers":["1 Not at all likely","2","3","4","5","6","7","8","9","10 Highly likley"]}]}
       },
-      "completed": "2021-05-25T21:41:17.187Z"
-    },
-    {
-      "id": 707320912578,
-      "content": {
-        "questions": [
-          {
-            "question": "How likely are you to recommend our product?",
-            "answer": "4"
-          }
-        ]
+      {"id":2,"name":"Employee Satisfaction","content":{"questions":[{"question":"How satisfied are you at this company?","answers":["Very unsatisfied","Unsatisied","Neutral","Satisfied","Very satisfied"]}]}
       },
-      "completed": "2021-05-25T22:20:25.259Z"
-    },
-    {
-        "id": 753380922800,
-        "content": {
-          "questions": [
-            {
-              "question": "What would you like for lunch today?",
-              "answer": "Pizza"
-            }
-          ]
-        },
-        "completed": "2021-05-25T22:20:25.259Z"
-      }
+      {"id":3,"name":"Lunch Order","content":{"questions":[
+          {"question":"What would you like for lunch today?",
+          "answers":["Pizza","Sandwiches","Sushi","Tacos"]}]}
+      },
+      {"id":4,"name":"Personal Questions","content":{"questions":[
+          {"question":"What is your favorite color?",
+          "answers":["Red","Blue","White","Black"]}]}
+      }]
+  ,
+  "responses":[
+      {"id":77747295293,
+      "content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"6"}]
+      },"completed":"2021-05-25T21:41:17.187Z"},
+      {"id":707320912578,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"4"}]},"completed":"2021-05-25T22:20:25.259Z"},
+      {"id":753380922800,"content":{"questions":[{"question":"What would you like for lunch today?","answer":"Pizza"}]},"completed":"2021-05-25T22:20:25.259Z"},
+      {"id":647907540747,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"2"}]},"completed":"2022-02-07T22:39:40.442Z"},
+      {"id":569893223806,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"6"}]},"completed":"2022-02-07T22:39:43.262Z"},
+      {"id":84375635547,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"10 Highly likley"}]},"completed":"2022-02-07T22:39:44.987Z"},
+      {"id":569895396754,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"10 Highly likley"}]},"completed":"2022-02-07T22:39:45.348Z"},
+      {"id":246161667384,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"3"}]},"completed":"2022-02-07T22:39:49.492Z"},
+      {"id":689792528033,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"3"}]},"completed":"2022-02-07T22:39:49.670Z"},
+      {"id":317408188631,"content":{"questions":[{"question":"How likely are you to recommend our product?","answer":"3"}]},"completed":"2022-02-07T22:39:49.829Z"},
+      {"id":317408188632,"content":{"questions":[{"question":"What is your favorite color?","answer":"Red"}]},"completed":"2022-03-07T22:39:49.829Z"},
+      {"id":317408188633,"content":{"questions":[{"question":"What is your favorite color?","answer":"Red"}]},"completed":"2022-03-08T22:39:49.829Z"},
+      {"id":317408188634,"content":{"questions":[{"question":"What is your favorite color?","answer":"Red"}]},"completed":"2022-03-09T22:39:49.829Z"},
+      {"id":317408188635,"content":{"questions":[{"question":"What is your favorite color?","answer":"Blue"}]},"completed":"2022-03-10T22:39:49.829Z"},
+      {"id":317408188636,"content":{"questions":[{"question":"What is your favorite color?","answer":"Black"}]},"completed":"2022-03-11T23:39:49.829Z"},
+      {"id":317408188637,"content":{"questions":[{"question":"What would you like for lunch today?","answer":"Sushi"}]},"completed":"2022-03-12T23:39:49.829Z"},
+      {"id":317408188638,"content":{"questions":[{"question":"What would you like for lunch today?","answer":"Pizza"}]},"completed":"2022-03-13T23:39:49.829Z"}
   ]
 }
